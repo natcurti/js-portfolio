@@ -1,0 +1,38 @@
+.acordeon__experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+.acordeon__experience li{
+    padding: 0 1rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.acordeon__experience li h3{
+    font-weight: 700;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+.acordeon__experience li p{
+    margin: 0.5rem 0;
+}
+
+.period::before{
+    content: '';
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url('../images/icons/calendario.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5rem;
+}

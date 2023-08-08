@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('header.css');
+@import url('acordeon.css');
+@import url('languages.css');
+@import url('portfolio.css');
+@import url('experience.css');
+@import url('skills.css');
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../fonts/neuemachina-regular.otf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    color: #fff;
+    background: linear-gradient(135deg, rgb(248, 129, 190), rgb(23, 7, 51), rgb(0,0,0), rgb(58, 85, 183), rgb(248, 129, 190));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.main__container{
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.15rem solid #fff;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 600px){
+    .main__container{
+        max-width: 60%;
+        margin: 1rem auto;
+    }
+}

@@ -1,0 +1,30 @@
+.acordeon__languages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.acordeon__languages li{
+    padding: 1rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.acordeon__languages li::before{
+    content: '';
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url('../images/icons/setinha-idiomas.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.7rem;
+}

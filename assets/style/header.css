@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+}
+
+.header__img{
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.header__title{
+    text-align: center;
+    font-family: "Neue Machina", sans-serif;
+    font-size: 1.5rem;
+    width: auto;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.header__info p{
+    margin: 0.25rem;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__info p::before{
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background-image: url(../images/icons/profile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.5rem;
+}
+
+.header__info p:nth-child(2)::before{
+    background-image: url(../images/icons/location.svg);    
+}
+
+.header__info p:nth-child(3)::before{
+    background-image: url(../images/icons/whatsapp.svg);
+}
+
+.header__info p:nth-child(4)::before{
+    background-image: url(../images/icons/email.svg);
+}
+
+@media screen and (min-width: 600px){
+    .header__container{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .header__img{
+        margin-right: 1.5rem;
+    }
+
+    .header__title{
+        text-align: left;
+        white-space: pre-wrap;
+    }
+    
+}
+
+
+

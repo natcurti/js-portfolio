@@ -1,0 +1,45 @@
+.acordeon__hard-skills{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 1rem 1rem;
+}
+
+.acordeon__hard-skills li{
+    margin: 0.5rem 1rem;
+}
+
+.acordeon__hard-skills li img{
+    max-width: 4rem;
+    max-height: 4rem;;
+}
+
+.acordeon__list h3{
+    padding: 0 1rem;
+    margin: 0 1rem 1rem;
+    font-weight: 700;
+}
+
+.acordeon__soft-skills{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
+.acordeon__soft-skills li{
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 600px){
+    .acordeon__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

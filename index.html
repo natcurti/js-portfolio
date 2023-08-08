@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Natalia Curti</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="assets/style/global.css">
+</head>
+<body>
+    <div class="main__container">
+        <header class="header">
+            <div class="header__container">
+                <img src="assets/images/foto-perfil.jpg" alt="Foto Natalia Curti" class="header__img" id="profile.photo">
+                <div class="header__container-info">
+                    <h1 class="header__title">
+Olá, 
+eu sou a 
+<span id="profile.name">Natalia Curti</span></h1>
+                    <div class="header__info">
+                        <p id="profile.job">Desenvolvedora Front-End</p>
+                        <p id="profile.location">Araraquara - SP</p>
+                        <p id="profile.phone"><a href="tel:+5516996097256">(16)99609-7256</a></p>
+                        <p id="profile.email"><a href="mailto:naticurti01@gmail.com">naticurti01@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="languages">
+                <section class="acordeon">
+                    <button type="button" class="acordeon__btn">Idiomas</button>
+                    <div class="acordeon__list">
+                        <ul class="acordeon__languages" id="profile.languagues">
+                            <li>Loading...</li>
+                            <li>Loading...</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="portfolio">
+                <section class="acordeon">
+                    <button type="button" class="acordeon__btn">Portfolio</button>
+                    <div class="acordeon__list">
+                        <ul class="acordeon__portfolio" id="profile.portfolio">
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="experience">
+                <section class="acordeon">
+                    <button type="button" class="acordeon__btn">Experiência Profissional</button>
+                    <div class="acordeon__list">
+                        <ul class="acordeon__experience" id="profile.experience">
+                            <li>
+                                <h3>Front-End Developer</h3>
+                                <p class="period">Janeiro 2023 - Atualmente</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem atque totam nobis architecto corrupti quibusdam ad facere quas nam cumque laboriosam culpa doloremque vero distinctio consequatur nihil! Magni, nam?</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="skills">
+                <section class="acordeon">
+                    <button type="button" class="acordeon__btn">Skills</button>
+                    <div class="acordeon__list">
+                        <div class="acordeon__container">
+                            <div>
+                                <h3>Hard Skills</h3>
+                                <ul class="acordeon__hard-skills" id="profile.hardSkills">
+                                </ul>
+                            </div>
+                            <div>
+                                <h3>Soft Skills</h3>
+                                <ul class="acordeon__soft-skills" id="profile.softSkills">   
+                                    <li>Loading...</li>
+                                    <li>Loading...</li>
+                                    <li>Loading...</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
