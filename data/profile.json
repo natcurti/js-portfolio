@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/html.svg"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/css.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/js.svg"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/react.svg"
       },
       {
         "name": "NodeJS",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/nodejs.svg"
       },
       {
         "name": "Github",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "logo": "https://raw.githubusercontent.com/natcurti/js-portfolio/1dfdb01034a6d034bddac2e31bc7aee0292c5aa9/assets/images/icons/github%20(2).svg"
       }
     ],
     "softSkills": [
